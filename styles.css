@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Indie+Flower&family=Lemonada:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Indie+Flower&family=Lemonada:wght@300..700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Indie+Flower&family=Lemonada:wght@300..700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Indie+Flower&family=Lemonada:wght@300..700&family=Noto+Kufi+Arabic:wght@100..900&family=Parkinsans:wght@300..800&display=swap');:root {
+    --primary-color: #a4b383; /* اللون الأخضر الفاتح */
+    --background-main: #f0efe9; /* خلفية فاتحة مع تدرج خفيف */
+    --header-bg: var(--primary-color);
+    --text-main: #4b5a38; /* لون نص داكن */
+    --link-color: #6d7a4f; /* لون الروابط */
+    --icon-facebook: #5d7462; /* لون أيقونة فيسبوك */
+    --icon-instagram: #8d9e73; /* لون أيقونة انستغرام */
+    --icon-whatsapp: #8a9b66;
+    --icon-tiktok:#7c8b65; /* لون أيقونة واتساب */
+    --footer-bg: #f8f8f0;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+  
+  body {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    background-color: var(--background-main);
+    background-image: url(./images/bg-img.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .business-card {
+    width: 330px;
+    background: linear-gradient(135deg, var(--primary-color), var(--background-main));
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: var(--header-bg);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .header h2 {
+    font-family: "Alexandria", sans-serif;
+    font-size: 18px;
+    margin: 5px 0 0;
+    font-weight: 400;
+  }
+  
+  .header p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .And{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    color: #5d7462;
+  }
+  .content {
+    padding: 20px;
+  }
+  
+  .info p {
+    margin: 10px 0;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    color: var(--text-main);
+    font-size: 14px;
+  }
+  
+  .info a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .icon {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .icon.facebook {
+    background-color: var(--icon-facebook);
+  }
+  
+  .icon.instagram {
+    background-color: var(--icon-instagram);
+  }
+  
+  .icon.whatsapp {
+    background-color: var(--icon-whatsapp);
+  }
+  .icon.tiktok{
+    background-color: var(--icon-tiktok);
+  }
+  
+  .footer {
+    background-color: var(--footer-bg);
+    font-family: "Noto Kufi Arabic", sans-serif;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-main);
+  }
+  
+  
+  
+  
