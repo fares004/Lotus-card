@@ -22,18 +22,24 @@
 }  
 
   
-  body {
-    font-family: "Cairo", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    background-color: var(--background-main);
-    background-image: url(./images/bg-img.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+body {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  background-color: var(--background-main); 
+  background-image: url(./images/bg-img.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  filter: brightness(80%) contrast(110%); 
+}
+
   
   .business-card {
     width: 330px;
